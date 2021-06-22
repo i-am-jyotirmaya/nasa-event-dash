@@ -4,7 +4,6 @@ import Searchbar from "../searchbar/searchbar";
 import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setEvents } from "./action";
-import { ReactComponent as Loader } from "../../assets/loader.svg";
 
 export const NasaEvents = () => {
     const dispatch = useDispatch();
