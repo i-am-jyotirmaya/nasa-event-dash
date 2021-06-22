@@ -1,3 +1,6 @@
 import { createStore } from "redux";
+import { eventReducer } from "../components/nasa-events/reducer";
 
-export default store = createStore();
+const store = createStore(eventReducer);
+
+export default store;
